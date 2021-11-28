@@ -1,0 +1,378 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    max-width:1440px;
+    width:100%;
+    height:74px;
+    background-color:#1B1310;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:2px solid #ffffff;
+    margin: auto;
+}
+
+
+img{
+    max-width: 100%;
+    object-fit:cover;
+}
+
+header ul{
+    display:flex;
+    list-style:none;
+    max-width:269px;
+    width:100%;
+    height:21px;
+    margin:27px 120px 26px 0;
+}
+
+header li{
+    font-family: Roboto;
+    font-size:16px;
+    font-weight:500;
+    text-align: left;
+    line-height: 1.31;
+}
+
+
+.list1,.list2,.list3,.list4{
+    display: none;
+}
+
+.list5 {
+    margin-right:55px;
+}
+
+.list6 {
+    margin-right:53px;
+}
+
+
+
+header a{
+    text-decoration: none;
+    color:#ffffff
+}
+
+.burger-btn{
+    display: none;
+}
+
+.site-title {
+    margin:24px 0 24px 120px;
+    font-family:Roboto;
+    font-size:26px;
+    font-weight: 500;
+    line-height:1.3;
+    text-align: left;
+}
+
+.mainvisual {
+    position:relative;
+    max-width:1440px;
+    width: 100vw;
+  height:740px;
+  
+    margin: auto;
+}
+
+.main-title {
+    position:absolute;
+    /*top:302px;
+    left:496px;*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:2px solid #ffffff;
+    max-width:449px;
+    width:100%;
+    height:136px;
+}
+
+.sp{
+    display: none;
+}
+
+.mainvisual h2{
+    max-width:365px;
+    width:100%;
+    height:67px;
+    margin:45px 42px;
+    color:#ffffff;
+    font-family: Roboto;
+    font-size: 45px;
+    letter-spacing:0.05em;
+    font-weight:500;
+    text-align: left;
+    line-height: 0.48;
+}
+
+
+.container {
+    margin:0 auto;
+    max-width:1030px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.section-title {
+    text-align: center;
+    font-family:Roboto;
+    font-size:36px;
+    font-weight:500;
+    letter-spacing: 0.05em;
+    line-height: 0.67;
+    color:#141414;
+}
+
+#about {
+    margin-top:100px;
+    height:335px;
+}
+
+.content {
+    height:210px;
+    margin-top:77px;
+}
+
+.content h3{
+    font-family: Noto Sans CJK JP;
+    font-size:24px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    text-align: left;
+    color:#141414
+}
+
+.text {
+    height:93px;
+    margin-top:45px;
+}
+
+.text p{
+    font-family: Noto Sans CJK JP;
+    font-size:14px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height:2.14;
+    text-align: left;
+    color: #141414;
+}
+
+
+#service {
+    height:648px;
+    margin-top:150px;
+}
+
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    height:240px;
+}
+
+.br {
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+.text-contents{
+    max-width:480px;
+    width:100%;
+    height:198px;
+}
+
+.text-contents h3{
+    font-family: Noto Sans CJK JP;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    text-align: left;
+    color:#141414
+}
+
+.texts {
+    height:81px;
+    max-width:480px;
+    width:100%;
+    margin-top: 45px;
+}
+
+.texts p{
+    font-family: Noto Sans CJK JP;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 2.14;
+    text-align: left;
+    color:#141414;
+}
+
+#news {
+    height:441px;
+    margin-top: 150px;
+}
+
+.news-title {
+    text-align: center;
+    font-family:Roboto;
+    font-size:36px;
+    font-weight:500;
+    letter-spacing: 0.1em;
+    line-height: 1.33;
+    color:#141414;
+}
+
+#news ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.new-site{
+    max-width:320px;
+    width:100%;
+    height:323px;
+    background-color: #ffffff;
+    filter:drop-shadow(0px 0px 6px rgba(27,19,16,0.4));
+}
+
+#news p{
+    padding:26px 32px 25px 34px;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height:1.92;
+    text-align: left;
+    color: #141414;
+}
+
+#contact {
+    margin-top:157px;
+    margin-bottom:50px;
+}
+
+.contact-form {
+    max-width:700px;
+    width:100%;
+    height:628px;
+    margin:0 auto;
+    /*margin:157px 370px 50px 370px;*/
+}
+
+
+.contact-title {
+    text-align: center;
+    font-family:Noto Sans CJK JP;
+    font-size:24px;
+    font-weight:bold;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    color:#141414;
+    margin-bottom:50px;
+}
+
+
+.form {
+    margin:25px 0;
+    height:51px;
+    max-width:700px;
+    width:100%;
+}
+
+.form input {
+    height:30px;
+    max-width:700px;
+    width:100%;
+    border:1px solid #141414;
+}
+
+.form p{
+    font-family:Hiragino Kaku Gothic ProN;
+    font-size:16px;
+    font-weight:300;
+    letter-spacing:0.05em;
+    line-height: 1.875;
+    color:#141414;
+    text-align: left;
+}
+
+.text-area p{
+    font-family:Hiragino Kaku Gothic ProN;
+    font-size:16px;
+    font-weight:300;
+    letter-spacing:0.05em;
+    line-height: 1.875;
+    color:#141414;
+    text-align: left;
+}
+
+.text-area {
+    height:192px;
+    max-width:700px;
+    width:100%;
+    margin-bottom: 50px;
+}
+
+
+textarea {
+    resize:none;
+    height:171px;
+    max-width:700px;
+    width:100%;
+    border:1px solid #141414;
+}
+
+
+.submit {
+    display:block;
+    max-width:235px;
+    width:100%;
+    height: 59px;
+    margin: auto;
+    background-color: #1B1310;
+    border-radius: 51px;
+    filter:drop-shadow(0px 0px 6px rgba(27,19,16,1));
+    color:#ffffff;
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight:900;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    padding:20px 97px;
+}
+
+
+footer {
+    max-width:1440px;
+    width:100%;
+    height:79px;
+    background-color: #1B1310;
+    margin: auto;
+}
+
+
+footer p {
+    font-family:Roboto;
+    font-size:14px;
+    font-weight:400;
+    letter-spacing:0.05em;
+    line-height:2.14;
+    color:#ffffff;
+    text-align:center;
+    padding-top:29px;
+}
+
+
